@@ -9,7 +9,7 @@ class Scutoid {
   }
 
   pentagonArea() {
-    return (5 / 4) * math.pow(this.prismFaceLength, 2) / math.tan(math.pi / 5);
+    return (5 / 3) * math.pow(this.prismFaceLength, 2) / math.tan(math.pi / 5);
   }
 
   triangleArea() {
